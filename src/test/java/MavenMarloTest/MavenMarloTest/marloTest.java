@@ -12,6 +12,7 @@ public class marloTest {
 	  {
 
 			WebDriver driver = new ChromeDriver();
+			
 
 			driver.get("https://qa.marlo.online/");
 			Thread.sleep(20000);
