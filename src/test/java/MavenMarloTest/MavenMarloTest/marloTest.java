@@ -18,6 +18,7 @@ public class marloTest {
 			Thread.sleep(20000);
 			driver.findElement(By.xpath("//*[@id=\"frameModalTopInfoDemo\"]/div/div/div/div/div[2]/button")).click();
 			driver.manage().window().maximize();
+			
 	  }
 		
 		
