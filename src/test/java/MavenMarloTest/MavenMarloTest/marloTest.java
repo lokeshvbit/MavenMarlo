@@ -13,7 +13,7 @@ public class marloTest {
 
 			WebDriver driver = new ChromeDriver();
 			
-
+				driver.manage().window();
 			driver.get("https://qa.marlo.online/");
 			Thread.sleep(20000);
 			driver.findElement(By.xpath("//*[@id=\"frameModalTopInfoDemo\"]/div/div/div/div/div[2]/button")).click();
